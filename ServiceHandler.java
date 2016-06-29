@@ -54,7 +54,7 @@ public class ServiceHandler {
     public String makeServiceCall(String url, int method,
                                   List<NameValuePair> params,String userID, String Password,String authToken) {
         try {
-            // http client
+            // http client xgdfg
             Log.d("TAG", "in make Service makeServiceCall");
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpEntity httpEntity = null;
